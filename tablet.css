@@ -1,0 +1,520 @@
+/*-------------------------------Index.html-------------------------------------------------*/
+/* @media(max-width:1000px ) {
+    body {
+        font-family: Arial, Helvetica, sans-serif !important;
+    }
+} */
+/*navbar design start */
+@media( max-width:1920px ) and ( min-width:1200px ) {
+    .container{
+        display: none;
+    }
+}
+
+@media( max-width:800px ) { /* 0px den 800 px'e kadar */
+    #login {
+        border: none !important;
+        margin-right: 100px !important;
+        margin-bottom: 0px !important;
+        margin-top: -11px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: block !important;
+    }
+    
+    .navbar-bg {
+        display: none;
+    }
+    /* -------------------- */
+    .logo img {
+        height: 25% !important;
+        width: 25% !important;
+        margin-left: 10% !important;
+        margin-top: 0px !important;
+    }
+
+    .toggle-menu {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        float: right;
+        z-index: 1000;
+      }
+       
+    .toggle-menu i {
+    position: absolute;
+    display: block;
+    height: 2px;
+    background: #0094FC;
+    width: 30px;
+    left: 0px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    }
+       
+    .toggle-menu i:nth-child(1) {
+    top: 16px;
+    }
+    
+    .toggle-menu i:nth-child(2) {
+    top: 24px;
+    }
+    
+    .toggle-menu i:nth-child(3) {
+    top: 32px;
+    }
+    
+    .toggle-menu.active i:nth-child(1) {
+    top: 25px;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    }
+    
+    .toggle-menu.active i:nth-child(2) {
+    background: transparent;
+    }
+    
+    .toggle-menu.active i:nth-child(3) {
+    top: 25px;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+    }
+    
+    .dropdown {
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    border-radius: 15px;
+    border-bottom-left-radius: 15px;
+    }
+
+    .menu-drawer {
+    width: 100px;
+    background-color: #cde0ff;
+    height: 300px;
+    position: absolute;
+    right: -550px;
+    top: 0;
+    transition: right linear .2s;
+    /* padding: 50px; */
+    border-radius: 15px;
+    min-width: 200px;
+    }
+
+    .menu-drawer ul li{
+    list-style-type: none;
+    }
+
+    .menu-drawer a{
+    color: #1e90ff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    }
+    
+    .open {
+    right: 0px;
+    transition: right linear .2s;
+    }
+
+    .header-img {
+        display: none !important;
+    }
+    .header-text {
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+}
+@media( max-width:1200px ) and ( min-width:800px ) { /*800 px den 1200 px e kadar*/
+    .logo img {
+        margin-left: -60px !important;
+    }
+    nav ul li {
+        margin-right: 10px !important;
+    }
+
+    #login {
+        margin-left: -10px !important;
+    }
+    
+    .container{
+        display: none;
+    }
+}
+
+/* navbar design end */
+
+/* header section design start */
+ @media( max-width:1350px ) {
+    #header {
+        width: 100%;
+        height: auto;
+    } 
+    .header-text {
+        display: inline-block;
+        height: auto;
+        width: 40%;
+        margin-left: 70px;
+    }
+    .header-text-table {
+        display: inline-block;
+        height: auto;
+
+    }
+    .header-img {
+        display: flex;
+        width: 40%;
+        height: auto;
+    }
+}  
+
+@media( min-width:1366px ) {
+    .header-text-table {
+        display: inline-block;
+        height: auto;
+        margin-top: 10%;
+    }
+}
+
+@media( max-width:850px ) {
+    .header-text-table {
+        margin-right: 5% !important;
+        width: 100% !important;
+    }
+} 
+
+@media ( max-width:650px ) {
+    #header {
+        width: 80%;
+    }
+    #header table{
+        margin-left: -50px;
+        width: 100%;
+        float: left;
+    }
+    .header-text {
+        font-size: smaller;
+    }
+    
+}
+
+/* @media( max-width:425px ) {
+    #header {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .header-img {
+        display: none;
+    }
+    .header-text {
+        display: inline-block;
+        margin-left: 5% !important;
+        margin-bottom: 260px !important;
+    }
+    .header-text-table {
+        display: block;
+        width: 100% !important;
+        margin: auto !important;
+        margin-top: 25% !important;
+    }
+}
+
+@media(max-width:768px) {
+    .header-text-table {
+        margin-top: 10% !important;
+    }
+}
+
+@media( max-width:1024px ) {
+    .header-text {
+        width: 40%;
+    }
+    .header-img {
+        width: 40%;
+    }
+    .header-text-table {
+        width: 50%;
+        margin: auto;
+    }
+} */
+/* header section design end */
+
+/* services section design start */
+@media( max-width:1200px ) {
+    .services {
+        display: block;
+        background-size: 100%;
+        height: 650px;
+    }
+    .services div {
+        display: inline-block;
+        margin: 1% !important;
+    }
+}
+
+@media(max-width:1000px) {
+    .services {
+        height: 400px;
+    }
+}
+@media( max-width:620px ) {
+    .services {
+        height: 320px;
+    }
+    .services div {
+        height: 260px;
+        font-size: smaller;
+    }
+    .service-third {
+        height: 230px !important;
+    }
+}
+/* services section design end */
+
+/* packets section design start */
+@media( max-width: 650px) {
+    .section-grey {
+        background-size: 100%;
+        background-repeat:repeat-y;
+        height: 850px;
+    }
+    .section-grey table tr td {
+        padding: 10px;
+        font-size: smaller !important;
+    }
+    .first-table {
+        width: 60% !important;
+    }
+    .second-table {
+        float: left !important;
+    }
+}
+
+@media( max-width:900px ) and (min-width:651px) {
+    .section-grey {
+        background-size: 200% !important;
+    }
+    
+    .section-grey table {
+        display: inline-block;
+        width: 40% !important;
+        font-size: medium;
+    }
+
+    .section-grey table td {
+        padding: 5px !important;
+        width: 0px !important;
+    }
+    .section-grey table tr td {
+        padding: 10px ;
+    }
+
+    .second-table {
+        float: right !important;
+    }
+    
+}
+
+@media ( max-width:1350px ) and ( min-width:900px ) {
+    .section-grey {
+        margin-top: -90px;
+        background-size: 200% !important;
+        background-repeat: no-repeat;
+    }
+    .section-grey table {
+        display: inline-block;
+        width: 35% !important;
+    }
+}
+
+/* packets section design end */
+
+
+/* BMI section design start */
+@media( max-width:1366px ) {
+    .BMI-text table {
+        margin-top: 10%;
+    }
+}
+@media(max-width:768px) {
+    .BMI-style {
+        width: 100% !important;
+    }
+
+    .BMI-text table {
+        float: left !important;
+        width: 50%;
+        margin-left: 2% !important;
+        margin-top: 5%;
+    }
+    
+    .BMI-text table th, td {
+        font-size: smaller;
+    }
+    .BMI-text {
+        width: 100%;
+        float: left !important;
+        margin-right: 2% !important; 
+        margin-left: 2% !important;
+    }
+    .BMI-img img {
+        display: none;
+    }
+} 
+@media ( min-width:1400px ) {
+    .BMI-img img {
+        height: 500px;
+    }
+}
+/* BMI section design end
+
+
+/* Footer section design start */
+@media ( max-width:490px ) {
+    .footer-BG {
+        width: 100%;
+        height: 500px;
+    }
+    .social-media-style {
+        display: none;
+    }
+    .journal-style {
+        width: 35%;
+    }
+    .footer-links-style {
+        width: 35%;
+    }
+}
+
+@media(min-width:768px) and (max-width:880px) {
+    .footer-BG {
+        width: 100%;
+    }
+    .footer-links-style {
+        display: inline-block !important;
+        align-items: flex-start;
+    }
+    .journal-style {
+        width: 30%;
+        display: inline-block !important;
+        justify-content: space-between;
+    }
+    .social-media-style {
+        width: 30% !important;
+        display: inline-block !important;
+        justify-content: flex-end;
+        vertical-align: top;
+        /* float: right !important; */
+    }
+}
+
+@media ( max-width:1000px ) {
+    .footer-links-style div {
+        width: 33%;
+    }
+    .footer-logo img {
+        /* display: inline-block; */
+        width: 150px !important;
+        height: 150px !important;
+    }
+    #policy {
+        margin-top: 5%;
+    }
+    .journal-style {
+        text-align: center;
+    }
+    .social-media-style {
+        float: right;
+        vertical-align: top;
+    }
+   
+}
+/* Footer section design end */
+
+
+/* ----------------------------------- Contact.html ---------------------------------- */
+
+/* Navbar section start */
+@media ( max-width:800px ) {
+
+    
+    /* .mobile-container { */
+        /* max-width: 480px; */
+        /* margin: auto; */
+        /* background-color: #0094FC;
+        height: 100px;
+        border-radius: 20px;
+      }
+      
+      .topnav {
+        overflow: hidden; */
+        /* background-color: #1e90ff; */
+        /* position: relative; 
+      }
+      */
+      /* .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        float: right !important;
+      }
+      
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      } */
+      
+      /* .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      } */
+      
+      /* .active {
+        background-color: #04AA6D;
+        color: white;
+      } */
+}
+
+
+@media(max-width:1150px) {
+    .contact-form {
+        width: 100% !important;
+        height: 600px !important;
+    }
+    .contact-form h2 {
+        float: left;
+        margin-left: 5% !important;
+        margin-top: 100px !important;
+    }
+    iframe {
+        width: 70% !important;
+        display: flex !important;
+        margin-left: 0px;
+        margin-right: 0px !important;
+        float: right;
+    }
+    form {
+        display: block !important;
+        width: 50% !important;
+        margin-left: 10%;
+        /* float: left; */
+        margin-top: 0px !important;
+    }
+    
+    form i {
+        display: none !important;
+    }
+}

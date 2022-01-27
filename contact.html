@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/MUSCLE__1_-removebg-preview-removebg-preview.png" type="image/x-icon">
+    <title>Muscle Gym</title>
+
+    <style>
+        @media( max-width:800px ) {
+            .navbar-bg {
+                display: inline-block;
+
+            }
+            .navbar-bg a {
+                display: inline-block;
+                font-size: 15px;
+            }
+            nav {
+                display: inline-block !important;
+                width: 100% !important;
+                height: 150px !important;
+            }
+            nav ul {
+                display: block !important;
+                float: right !important;
+                width: 70% !important;
+            }
+            nav ul li {
+                display: inline-block;
+                margin-right: 2px !important;
+            }
+            .logo {
+                width: 20% !important;
+            }
+            .logo img {
+                display: inline-block;
+                width: 80px !important;
+                height: 80px !important;
+                margin-left: 10px !important;    
+            }
+            #login {
+                width: 90px !important;
+                display: inline-block !important;
+                float: right !important;
+                margin-right: 0px !important;
+            }
+            #login a {
+                border: 1px solid #1e90ff !important;
+                padding: 5px !important;
+                display: inline-block !important;
+                margin-right:  0px !important;
+                float: right !important;
+            }
+            .contact-title h1 {
+                margin-left: 34%;
+            }
+        }
+
+    </style>
+</head>
+    
+<body>
+    
+    <!-- desktop navbar -->
+    <div class="navbar-bg navbar-bg-contact">
+        <nav id="navbar">
+                <a class="logo" href="index.html"><img src="img/logo3.png" alt="logo"></a>
+                <ul>
+                    <li><a href="index.html" class="current">Ana Sayfa</a></li  >
+                    <li><a href="#footer">Bilgiler</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
+                    <div id="login">
+                        <a href="login.html" target="_blank" class="current">Giriş <i class="fas fa-sign-in-alt"></i></a>
+                    </div>
+                  </ul>
+        </nav>
+    </div> 
+
+    <!-- mobile navbar -->
+
+    <div class="contact-title">
+        <h1>-İletişim-</h1>
+        <h4><a href="index.html">Anasayfa</a> / </h4>
+        <h4><a href="contact.html">İletişim</a></h4>
+    </div>
+
+    <section id="contact" class="contact-form">
+        <div >
+            <h2>Bizimle İletişime Geçin</h2>
+            <form action="#" method="post">
+                <label> <i class="fas fa-user"></i></label>
+                <input type="text" placeholder="İsim*"> <br>
+                <label> <i class="fas fa-envelope"></i></label>
+                <input type="email" placeholder="EMail*"> <br>
+                <label><i class="far fa-edit"></i></label>
+                <input type="text" placeholder="Konu*"> <br>
+                <label><i class="far fa-envelope textarea-label-style"></i></label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesajınız*"></textarea> <br>
+                <button onclick="showAlert()" type="button" id="sendMessage">Gönder</button>
+                
+            </form>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.2211306089566!2d28.68491051482626!3d41.02041782662767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa0bad47ed993%3A0xf893de82b52538eb!2s%C4%B0stanbul%20Esenyurt%20%C3%9Cniversitesi!5e0!3m2!1sen!2str!4v1640194744016!5m2!1sen!2str" width="680" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section id="footer" class="footerBG">
+        <footer id="contact" class="footer-style footer-links-style">
+            <div>
+                <a href="https://musclewiki.com/">Kasları Tanı !</a>
+                <a href="https://www.agirsaglam.com/gunluk-kalori-ihtiyaci-hesaplama/">Günlük Kalori İhtiyacını Hesapla</a>
+                <a href="https://nossfitclub.com/kitchen/">Mutfak</a>
+                <a href="https://fityemek.com/category/fit-tarifler/fit-yemekler/">Fit Yemekler</a>
+                <a href="contact.html">Bizimle Çalışmak İster misiniz?</a>
+            </div>
+    
+            <div class="journal-style">
+                <h3>En Güncel Haberlerden Haberdar Olun</h3>
+                <p>En son haberleri ve teklifleri almak için bültenimize abone olun.</p>
+                <input type="email" placeholder="E-Posta">
+                <br>
+                <a href="login.html" id="subs">Abone Ol</a>
+            </div>
+            <div class="social-media-style">
+                <a href="index.html" class="footer-logo"><img src="img/logo3.png" alt="logo"></a>
+                <br>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+            <br>
+            <br>
+            <hr style="width: 85%; border-color: rgb(113, 119, 119);">
+        </footer>
+    
+        <section id="policy">
+            <div class="popup-section">
+                <!-- policy start -->
+                <label id="user" class="policy-style">User Agrement</label>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p id="policyContent">
+                            
+                        </p>
+                    </div>
+                </div>
+    
+    
+                <label id="privacy" class="policy-style">Privacy Policy</label>
+                <div id="myPrivacy" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p id="privacyContent">
+                        </p>
+    
+                    </div>
+                </div>
+    
+    
+                <label id="cookies" class="policy-style">Cookies Policy</label>
+                <div id="myCookies" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p id="cookiesContent">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- policy end -->
+            </div>
+            <p>@Copyright <a href="index.html">Muscle</a> 2021. All rights reserved.</p>
+        </section>
+    </section>
+    <script src="app.js"></script>
+    <script src="popup.js"></script>
+   
+</body>
